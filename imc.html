@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="C:\Users\steve\Desktop\projet_web\Homepage3.css">
+ <link rel="icon"
+      type="image\png"
+      href="REAL LOGO.png">
+<body>
+
+
+<head>
+
+<style>
+body {
+	background-color:#ddd
+}
+</style>
+<link rel="stylesheet" href="C:\Users\steve\Desktop\projet_web\imc_design.css"> 
+</head>
+
+
+<div class="topnav" id="upage">
+
+    <ul id="menu">
+        <li><a href="C:\Users\steve\Desktop\projet_web\homepage3.html">Homepage</a></li>
+        <li>
+          <a href="#">Exercices</a>
+          <ul id="submenu">
+              <li> <a href="C:\Users\steve\Desktop\projet_web\Biceps2.html"> Biceps </a></li>
+          		<li> <a href="C:\Users\steve\Desktop\projet_web\Triceps.htm"> Triceps </a></li>
+          		<li> <a href="C:\Users\steve\Desktop\projet_web\Chest.htm"> Chest </a></li>
+          		<li> <a href="C:\Users\steve\Desktop\projet_web\Back.htm"> Back </a></li>
+          		<li> <a href="C:\Users\steve\Desktop\projet_web\Legs.htm"> Legs </a></li>
+	        </ul>
+  </li>
+  <li><a href="C:\Users\steve\Desktop\projet_web\imc.html">Nutrition</a></li>
+  <li><a href="C:\Users\steve\Desktop\projet_web\maps.html" target="_blank">Nearest gym</a></li>
+  </ul>
+
+
+
+
+
+</div>
+
+<h2>Calculate your BMI</h2>
+<form>
+
+Height (meters):
+<input type="number" id="height" min="1" max="2.7">
+Weight (kg):
+<input type="number" id="weight">
+<center> <button type="button" onclick="IMC();Result()">Calculate</button> </center>
+
+</form>
+
+
+
+<script>
+
+
+
+function Result() {
+document.getElementById("essai").style.display = "block";
+}
+
+function IMC() {
+var  height = document.getElementById("height").value;
+var  weight = document.getElementById("weight").value;
+var IMC = weight/(height**2)
+
+
+document.getElementById("demo").innerHTML = IMC.toFixed(2);
+
+// Affichage de commentaires selon le poids part.1
+if (IMC < 18.5) {
+document.getElementById("etat_physique").innerHTML = "<style='color:red'>Underweight";
+document.getElementById("mauvais_physique").style.display = "block";
+}else if (IMC >= 18.5 && IMC < 24.9) {
+document.getElementById("etat_physique").innerHTML = "<span style='color:green'>Normal weight";
+document.getElementById("bon_physique").style.display = "block";
+}
+else if (IMC >= 25 && IMC < 29.9) {
+document.getElementById("etat_physique").innerHTML = "<style='color:red'>Stoutness";
+document.getElementById("mauvais_physique").style.display = "block";
+}else {
+document.getElementById("etat_physique").innerHTML = "<style='color:red'>Overweight";
+document.getElementById("mauvais_physique").style.display = "block";
+}
+}
+
+
+
+</script>
+<br>
+
+
+<p id="essai" style="display:none" > <font size = "5"> Your BMI is: </font> </p>
+<p id="demo" style="font-size:larger";> </p>
+
+<!-- Affichage de commentaires selon le poids part.2 -->
+<p style="color:red" id="etat_physique"></p>
+<img id="bon_physique" style="display:none" src="C:\Users\steve\Pictures\happy.png" alt="happy_smiley" width="42" height="42">
+<img id="mauvais_physique" style="display:none" src="C:\Users\steve\Pictures\angry.png" alt="happy_smiley" width="42" height="42">
+
+<div class="footer">
+
+
+<!-- Liens de redirection vers les reseaux sociaux -->
+<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com" target="_blank"class="fa fa-instagram"></a>
+</div>
+
+</body>
+</html> 

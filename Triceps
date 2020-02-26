@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>MUSCLES ARE US</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+  div.content {
+    font-size: 250%;
+  }
+</style>
+</head>
+<link rel="icon"
+      type="image\png"
+      href="C:\Users\33695\Documents\Cours\S6\Website\LOGO.png">
+<body>
+
+<div class="topnav" id="upage">
+  <a href="#">Homepage</a>
+  <a href="#">Exercices</a>
+  <a href="#">Nutrition</a>
+</div>
+
+<div class="content">
+  <h2>Muscles Are Us.</h2>
+  <p><img src="https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/hercules_dwaynes_story_main.jpg?itok=Q9jql1Wt&timestamp=1409171257" alt="The Rock" style="float:right;width:600px;height:300px">
+    A simple website with all you need to succeed in bodybuilding !<br>
+    We are 3 workout enthusiatst and we are looking for helping<br>
+    people sharing our passion ! We will provide you advices,<br>
+    programs and even our homemade calorie calculator, the<br>
+    perfect tool to set up your diet !<br>
+    And guess what ? All this is free !</p>
+
+
+
+</div>
+
+<div class="footer">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="C:\Users\33695\Documents\Cours\S6\Website\Homepage.css">
+<!-- Liens de redirection vers les reseaux sociaux -->
+<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com" target="_blank"class="fa fa-instagram"></a>
+</div>
+
+</body>
+</html>

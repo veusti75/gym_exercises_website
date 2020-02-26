@@ -1,0 +1,43 @@
+body,html {
+
+    color: black;
+    display:block;
+    width:100%;
+    margin:0;
+    padding:0;
+
+}
+
+form {
+    
+	background-color: grey;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px 5px black;
+    margin: 0;
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+
+}
+
+input {
+    
+	box-shadow: 1px 1px 3px 1px black;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+p {
+    color: black;
+    text-shadow: -2px -2px 5px white;
+    
+}
+
+
+	
+
